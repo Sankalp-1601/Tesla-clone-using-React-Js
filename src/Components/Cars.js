@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cars({bgimg, title, desc}) {
   return (
-    <div className='carSection' style={{backgroundImage:`url("/images/${bgimg}")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}}>
+    <div className='carSection' style={{backgroundImage:`url("images/${bgimg}")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}}>
         <div className="carModel">
             <h1>{title}</h1>
             <p>{desc}</p>
